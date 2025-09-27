@@ -1,3 +1,5 @@
+<img width="1270" height="730" alt="image" src="https://github.com/user-attachments/assets/088b9565-2cff-4087-be1b-f09209b9c105" />
+
 Floating AI — Your Smart Desktop Chat with Memory
 
 Floating AI is a simple desktop app built with Python + PyQt5 that lets you chat with an AI assistant, save important notes, and revisit past conversations anytime. You can quickly recall, manage, or clear memory and history with ease. Lightweight and efficient, it’s designed for speed and simplicity.
@@ -118,5 +120,6 @@ MIT License — free to modify and distribute.
 * Markdown for rendering responses
 * AI magic courtesy of your favorite LLM API
 * Model selection integration for multiple AI backends
+
 
 
