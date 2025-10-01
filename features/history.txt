@@ -87,3 +87,40 @@ User: hi
 
 Hint: Set NVIDIA_MODEL in your .env to a valid model id, e.g. NVIDIA_MODEL=meta/llama-3.1-8b-instruct or NVIDIA_MODEL=nvidia/nemotron-3-8b-instruct
 
+User: hi
+
+#AI: **Error:** HTTP 404: 404 page not found
+
+Hint: Set NVIDIA_MODEL in your .env to a valid model id, e.g. NVIDIA_MODEL=meta/llama-3.1-8b-instruct or NVIDIA_MODEL=nvidia/nemotron-3-8b-instruct
+
+User: hi
+
+#AI: **Error:** HTTP 404: 404 page not found
+
+Hint: Model 'nvidia/nemotron-3-8b-instruct' not found. Try setting NVIDIA_MODEL in your .env to a valid model id:
+• NVIDIA_MODEL=meta/llama-3.1-8b-instruct
+• NVIDIA_MODEL=microsoft/Phi-3-mini-4k-instruct
+• NVIDIA_MODEL=microsoft/Phi-3.5-mini-128k-instruct
+Available models in dropdown: nvidia/nemotron-3-8b-instruct
+
+User: hi
+
+#AI: **Error:** HTTP 401: {"status":401,"title":"Unauthorized","detail":"Authentication failed"}
+Hint: Authentication failed. Ensure your NVIDIA_API_KEY is valid, has access to the selected model, and your .env is in the Floating-AI folder.
+
+User: what is the meaning of life?
+
+#AI: **Error:** 'Response' object is not callable
+
+User: hi
+
+#AI: **Error:** 'Response' object is not callable
+
+User: hi
+
+#AI: **Error:** 'Response' object is not callable
+
+User: hi
+
+#AI: **Error:** 'Response' object is not callable
+

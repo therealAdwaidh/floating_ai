@@ -1,5 +1,5 @@
 # main.py
-from ai_client import ai_response, AVAILABLE_MODELS
+from ai_client import response
 import sys
 import markdown
 from PyQt5.QtWidgets import (
@@ -58,7 +58,7 @@ class AIWorker(QObject):
 
     def run(self):
         try:
-            result = str(ai_response(self.query, self.model_index))
+            result = str(response(self.query, self.model_index))
         except Exception as e:
             result = f"**Error:** {str(e)}"
         self.finished.emit(self.query, result)
@@ -113,8 +113,7 @@ class MainWindow(QWidget):
 
         # Model selection dropdown
         self.model_selector = QComboBox()
-        self.model_selector.addItems([model.split("/")[-1] for model in AVAILABLE_MODELS])
-        self.layout.addWidget(self.model_selector)
+        
 
         # Buttons layout: History, Personality
         button_layout = QHBoxLayout()
